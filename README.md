@@ -2,43 +2,38 @@
 # Custom Knowledge LangChain Plugin Chatbot
 
 ## Overview
+The Custom Knowledge LangChain Plugin Chatbot is a specialized solution aimed at enhancing customer interaction across organizational websites. Leveraging advanced language models and the LangChain framework, this chatbot offers tailored responses and seamless integration, ensuring a personalized and efficient user experience.
 
-This project introduces a specialized Chrome extension chatbot aimed at enhancing customer interaction on organizational websites. The core objective revolves around seamless integration, adaptive learning, and tailored customization, fostering improved customer engagement and satisfaction.
+## Installation
 
-## Features
+### Prerequisites
+- Python 3.x
+- LangChain library
+- Gemini Pro API access
+- Chrome Browser
 
-- *Effortless Integration*: The plugin seamlessly embeds into websites, offering a user-friendly interface for customer interactions.
-- *Adaptive Learning*: Leverages LangChain to learn and adapt from organization-specific data, ensuring precise and contextually relevant responses.
-- *Tailored for Excellence*: Customizable to individual organizational requirements, enhancing user experience.
-
-## Implementation
-
-### Setup
-1. *LINE Bot Configuration*: Set up a LINE bot to interact with users.
-2. *LUIS App Setup*: Configure a Language Understanding Intelligent Service (LUIS) app for semantic analysis.
-3. *QnA Maker Knowledge Base*: Create a QnA Maker base to store question-and-answer pairs.
-4. *Database Establishment*: Set up a database to store entities, intents, and QnA pairs to expedite search functionality.
-
-### Evaluation
-- *Survey Questions*: Evaluated using a questionnaire by Yu [11], encompassing tangibles, reliability, responsiveness, assurance, and empathy categories.
-- *Participant Count*: 64 participants surveyed.
-
-### Results
-- *User Experience*: Average rating for each category exceeds 3.7, indicating a higher-than-normal user experience.
-- *Empathy Category*: High ratings, highlighting the system's advantage, especially in terms of 24/7 service availability.
+### Installation Steps
+1. Clone or download this repository.
+2. Install required Python dependencies using pip install -r requirements.txt.
+3. Obtain Gemini Pro API access and configure API keys.
+4. Set up the LangChain library for interaction with Gemini Pro.
+5. Customize and embed the provided UI and backend into the organization's website.
+6. Ensure PDFs or relevant documents containing organizational data are uploaded to the chatbot.
 
 ## Usage
+- Once installed and configured, the chatbot prompts users to upload PDFs or documents containing organizational data.
+- The chatbot architecture segments, extracts, and stores document information into the database.
+- User queries are processed using semantic indexing and ranked responses based on the stored knowledge base.
+- Results are generated and provided to users in a natural language format.
 
-### Installation
-1. Clone the repository: git clone <repository_URL>
-2. Follow the installation guide in the docs directory.
+## Evaluation
+- The system's efficacy was evaluated through a user survey across various dimensions, including tangibles, reliability, responsiveness, assurance, and empathy.
+- The results indicated a favorable user experience, emphasizing the chatbot's advantages in continuous accessibility and personalized service.
 
-### Running the Code
-1. Navigate to the src directory.
-2. Execute the main script: python main.py
+## Conclusion
+The Custom Knowledge LangChain Plugin Chatbot presents a robust solution for enhanced customer engagement and support. By harnessing the power of advanced language models, this implementation showcases the potential for improved user interactions and organizational efficiency.
 
-## Conclusion and Future Work
-
+For detailed installation and usage guidelines, refer to the documentation within the repository.
 ### Conclusion
 The results showcase positive user experiences, affirming the effectiveness of the custom knowledge LangChain plugin chatbot in enhancing customer interactions on websites.
 
